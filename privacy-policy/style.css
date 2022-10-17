@@ -1,11 +1,15 @@
 body {
   margin: auto;
   padding: 50px;
+  background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
-    rgb(88, 80, 238) 11%,
-    rgba(203, 80, 251, 1) 36%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(238, 174, 202, 1) 0%,
+    rgba(238, 174, 202, 1) 10%,
+    rgba(177, 219, 202, 1) 21%,
+    rgba(238, 174, 202, 1) 59%,
+    rgba(83, 222, 150, 1) 75%,
+    rgba(177, 219, 202, 1) 92%
   );
 }
 
@@ -18,4 +22,5 @@ header {
 .content {
   margin-left: 60px;
   margin-right: 40px;
+  font-size: 20px;
 }
